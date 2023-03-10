@@ -30,7 +30,7 @@ When the above doesn't work, you may want to either apply or take inspiration fr
 Once you've installed rose to `/bin/rose`, install this repository:
 
 ```
-git clone [this repository]
+git clone https://git.nunosempere.com/NunoSempere/asana-for-linux.git
 cd asana-for-linux
 sudo ln -sf /bin/rose /bin/asana ## this is so that the xdg-open gods recognize asana as its own thing
 chmod +x asana.desktop
@@ -53,6 +53,10 @@ I'm guessing that the Asana people are not going to care either way
 **What is the status of this repository?**
 
 This repository is provided as is. I don't make any guarantees of merchantability. I consider it pretty much feature complete.
+
+**Why did you do this?**
+
+Because I was bored and I find programming projects relaxing.
 
 ## To do 
 
