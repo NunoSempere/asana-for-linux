@@ -4,6 +4,8 @@ This is a project for creating a desktop app for Asana on Linux, and in particul
 
 Technical requirements are medium. You should be familiar with Linux systems and willing to debug things yourself if and when you get any errors. But your beard need not be long.
 
+![](assets/screenshot.png)
+
 ## Built with
 
 - [rose](https://github.com/mini-rose/rose)
@@ -32,6 +34,11 @@ git clone [this repository]
 cd asana-for-linux
 sudo ln -sf /bin/rose /bin/asana ## this is so that the xdg-open gods recognize asana as its own thing
 chmod +x asana.desktop
+```
+
+then edit asana.desktop to point to the location of `assets/asana-logo-round.png` on your system.
+
+```
 sudo cp asana.desktop /usr/share/applications
 ```
 
